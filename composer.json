@@ -1,0 +1,22 @@
+{
+    "name": "cliffthecoder/filament-uploadthing",
+    "description": "UploadThing integration for FilamentPHP",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^4.0",
+        "illuminate/contracts": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CliffTheCoder\\FilamentUploadThing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CliffTheCoder\\FilamentUploadThing\\FilamentUploadThingServiceProvider"
+            ]
+        }
+    }
+}
